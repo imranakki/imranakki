@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=imranakki&show_icons=true&hide_border=true&count_private=true&theme=shades-of-purple&include_all_commits=true" />
+<img height="180em" width="100%" src="https://github-readme-stats.vercel.app/api?username=imranakki&show_icons=true&hide_border=true&count_private=true&theme=shades-of-purple&include_all_commits=true" />
 <!--
 **imranakki/imranakki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
