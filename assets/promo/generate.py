@@ -168,7 +168,7 @@ class Frame:
         self.text((W - self.width(s, size, path)) / 2, y, s, size, fill, path, k)
 
 
-PROMPT = "imran@quebec ~"
+PROMPT = "imran@akki ~"
 
 
 def prompt(fr, x, y, typed, cursor_on=True, k=1.0):
