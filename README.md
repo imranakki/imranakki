@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Terminal intro: whoami prints Imran Akki, backend and systems engineer, MSc student at Université Laval on a double degree with INSEA, Codeforces Expert; a C++ solution passes all tests; àVélo plans a Québec City bike trip with no overage fee; ls lists the public repos." width="880" src="assets/promo/imranakki-terminal.gif" />
+  <img alt="Terminal intro: whoami prints Imran Akki, backend and systems engineer, MSc student at Université Laval on a double degree with INSEA, Codeforces Expert. A C++ solution passes all tests. àVélo plans a Québec City bike trip with no overage fee. ls lists the public repos." width="880" src="assets/promo/imranakki-terminal.gif" />
 </p>
 
 <p align="center">
@@ -11,9 +11,12 @@
 
 ## Hi, I'm Imran
 
-I'm doing a master's in computer science (AI) at **Université Laval** in Québec, as part of a double degree with **INSEA** in Rabat, where I study data & software engineering. I mostly work on backends: APIs, databases, and the parts of a system that have to stay correct when real users and live data hit them.
-I also like going one layer lower to write the shell, the compiler or the search algorithm myself, just to see how it works.
-Outside of building things, I do competitive programming: **Codeforces Expert** and **top 4% at Meta Hacker Cup 2025**.
+I study for a master's in computer science (AI) at Université Laval in Québec. The program is a double degree with INSEA in Rabat, where I study data and software engineering.
+
+- I build backends: APIs, databases, and the services behind them.
+- My code stays correct under real users and live data.
+- I write low-level tools myself, a shell, a compiler, a search algorithm, to learn how each one works.
+- I compete in programming contests: Codeforces Expert, top 4% at Meta Hacker Cup 2025.
 
 ## <img src="assets/icons/code.svg" height="22" alt="" /> Things I've built
 
@@ -22,9 +25,9 @@ Outside of building things, I do competitive programming: **Codeforces Expert** 
 <td valign="top" width="50%">
 
 ### <img src="assets/icons/bicycle.svg" height="18" alt="" /> [àVélo Route Optimizer](https://github.com/imranakki/avelo-route-optimizer)
-Québec City's bike-share charges you once a ride passes 30 or 45 minutes, and normal map apps ignore that. This planner splits a trip into several rides on the *same bike*: you re-dock along the way so the clock resets. It also accounts for hills.
+Québec City's bike-share charges you once a ride passes 30 or 45 minutes. Map apps ignore this limit. The planner splits your trip into several rides on the same bike. You re-dock along the way, and the clock resets. The planner also accounts for hills.
 
-**Result:** across 1,000 sampled trips, the share charged overage fees fell from **49.6% to 0%**.
+Result: across 1,000 sampled trips, overage charges dropped from 49.6% of trips to 0%.
 
 [Live demo](https://avelo.imranakki.com) · `Python` `FastAPI` `OSRM` `Next.js`
 
@@ -32,9 +35,9 @@ Québec City's bike-share charges you once a ride passes 30 or 45 minutes, and n
 <td valign="top" width="50%">
 
 ### <img src="assets/icons/database.svg" height="18" alt="" /> [NexusORM](https://github.com/imranakki/NexusORM)
-An ORM generator built as a small compiler. You describe your schema in a `.nexus` file. NexusORM generates plain C++ classes, SQL migrations and a chainable query builder (`.where().orderBy().limit()`) on top of PostgreSQL.
+A small compiler for ORM code. You write your schema in a `.nexus` file. NexusORM generates plain C++ classes, SQL migrations, and a chainable query builder (`.where().orderBy().limit()`) for PostgreSQL.
 
-It needs no runtime reflection and no macros.
+No runtime reflection. No macros.
 
 `C++20` `PostgreSQL` `libpqxx` `CMake`
 
@@ -44,15 +47,15 @@ It needs no runtime reflection and no macros.
 <td valign="top" width="50%">
 
 ### <img src="assets/icons/chess-knight.svg" height="18" alt="" /> [OBSIDIAN](https://github.com/imranakki/OBSIDIAN)
-A chess engine that plays at around 2000 Elo. It searches with minimax, alpha-beta pruning and quiescence search, and orders moves with killer moves, the history heuristic and static exchange evaluation.
+A chess engine playing at about 2000 Elo. The search uses minimax, alpha-beta pruning, and quiescence search. Move ordering uses killer moves, the history heuristic, and static exchange evaluation.
 
-[Play it on Lichess](https://lichess.org/@/OBSIDIANChessEngine) · `Python`
+[Play OBSIDIAN on Lichess](https://lichess.org/@/OBSIDIANChessEngine) · `Python`
 
 </td>
 <td valign="top" width="50%">
 
 ### <img src="assets/icons/terminal.svg" height="18" alt="" /> [nova-shell](https://github.com/imranakki/nova-shell)
-A Unix shell written from scratch. It handles pipes, `<` and `>` redirection, background jobs with `&`, quoting, `$VAR` expansion and command history, plus built-ins like `cd`, `set` and `history`.
+A Unix shell I wrote from scratch. nova-shell handles pipes, `<` and `>` redirection, background jobs with `&`, quoting, `$VAR` expansion, and command history. Built-ins include `cd`, `set`, and `history`.
 
 `C` `GNU Readline`
 
@@ -62,7 +65,7 @@ A Unix shell written from scratch. It handles pipes, `<` and `>` redirection, ba
 <td valign="top" width="50%">
 
 ### <img src="assets/icons/file-lines.svg" height="18" alt="" /> [Acadconf](https://github.com/imranakki/Acadconf)
-A web platform for running an academic conference: authors submit papers, reviewers score them, and editors accept, reject or ask for revisions. It has separate roles for each, and exports reports to Excel and PDF.
+A web platform for academic conferences. Authors submit papers. Reviewers score them. Editors accept, reject, or request revisions. Each role has separate permissions. You export reports to Excel and PDF.
 
 `Java 21` `Spring Boot 3` `MySQL` `Docker`
 
@@ -70,7 +73,7 @@ A web platform for running an academic conference: authors submit papers, review
 <td valign="top" width="50%">
 
 ### <img src="assets/icons/code-pull-request.svg" height="18" alt="" /> [domjudge-cli](https://github.com/AnasImloul/domjudge-cli)
-A command-line tool for setting up DOMjudge programming contests. I've contributed **2 merged pull requests**, about 1,260 lines in total.
+A command-line tool for setting up DOMjudge programming contests. I contributed 2 merged pull requests, about 1,260 lines of code.
 
 `Python` `Typer` `Pydantic`
 
@@ -87,7 +90,7 @@ A command-line tool for setting up DOMjudge programming contests. I've contribut
 | Moroccan Collegiate Programming Contest 2025 | 18th |
 | Moroccan Olympiad in Informatics 2022 | Semi-finalist |
 
-I also set problems for Game of Codes, a national inter-school contest. My solutions live in [Competive-Programming-Problems](https://github.com/imranakki/Competive-Programming-Problems) and [neetcode-submissions](https://github.com/imranakki/neetcode-submissions).
+I also set problems for Game of Codes, a national inter-school contest. You find my solutions in [Competive-Programming-Problems](https://github.com/imranakki/Competive-Programming-Problems) and [neetcode-submissions](https://github.com/imranakki/neetcode-submissions).
 
 ## <img src="assets/icons/toolbox.svg" height="22" alt="" /> Tools I use
 
@@ -98,5 +101,5 @@ I also set problems for Game of Codes, a national inter-school contest. My solut
 </p>
 
 <p align="center">
-  Say hi at <a href="mailto:me@imranakki.com">me@imranakki.com</a>. I'm happy to talk about backends, databases or a contest problem.
+  Email me at <a href="mailto:me@imranakki.com">me@imranakki.com</a>. I'm happy to talk about backends, databases, or a contest problem.
 </p>
