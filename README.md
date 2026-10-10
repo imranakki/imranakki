@@ -95,9 +95,13 @@ I also set problems for Game of Codes, a national inter-school contest. You find
 ## <img src="assets/icons/toolbox.svg" height="22" alt="" /> Tools I use
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,ts,py,c,nodejs,spring,symfony,laravel,fastapi&perline=10" alt="Languages and back end: C++, Java, TypeScript, Python, C, Node.js, Spring, Symfony, Laravel, FastAPI" />
+  <img src="https://skillicons.dev/icons?perline=12&i=cpp,c,java,py,ts,js,go,php,dart" alt="C++, C, Java, Python, TypeScript, JavaScript, Go, PHP, Dart" />
   <br>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,flutter,postgres,redis,docker,nginx,githubactions,aws&perline=10" alt="Front end, data and ops: React, Next.js, Vue, Flutter, PostgreSQL, Redis, Docker, Nginx, GitHub Actions, AWS" />
+  <img src="https://skillicons.dev/icons?perline=12&i=nodejs,express,spring,symfony,laravel,fastapi,react,nextjs,vue,tailwind,flutter" alt="Node.js, Express, Spring, Symfony, Laravel, FastAPI, React, Next.js, Vue, Tailwind CSS, Flutter" />
+  <br>
+  <img src="https://skillicons.dev/icons?perline=12&i=postgres,mysql,redis,prisma,firebase,kafka" alt="PostgreSQL, MySQL, Redis, Prisma, Firebase, Kafka" />
+  <br>
+  <img src="https://skillicons.dev/icons?perline=12&i=docker,nginx,linux,aws,gcp,cloudflare,terraform,githubactions,prometheus,grafana,jest,vitest" alt="Docker, Nginx, Linux, AWS, Google Cloud, Cloudflare, Terraform, GitHub Actions, Prometheus, Grafana, Jest, Vitest" />
 </p>
 
 <p align="center">
